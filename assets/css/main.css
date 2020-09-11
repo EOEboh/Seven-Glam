@@ -3186,7 +3186,13 @@
 
 	}
 	img{
+		width: 80%;
+	}
+	@media screen and (max-width: 1024px){
+	
+	img{
 		width: 100%;
+		}	
 	}
 	ul{
 		list-style: none;
@@ -3199,7 +3205,9 @@
 	}
 
 		@media screen and (max-width: 980px) {
-
+			img{
+				width: 100%;
+			}
 			#nav {
 				display: none;
 			}
@@ -3531,7 +3539,6 @@
 
 			#banner {
 				padding: 10em 0 8em 0;
-			}
 
 		}
 
@@ -3744,6 +3751,14 @@
 				padding: 2em 0 0.1em 0;
 			}
 
+		}
+		@media screen and (min-width: 1024px){
+			.inner img{
+				width: 50%;
+			}
+			.inner{
+				text-align: center;
+			}
 		}
 
 /* Footer */
